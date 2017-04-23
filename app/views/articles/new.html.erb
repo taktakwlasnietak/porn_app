@@ -1,0 +1,25 @@
+<%= form_for :article, url: articles_path do |f| %>
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <%= f.label :text %><br>
+    <%= f.text_area :text %>
+  </p>
+
+  <p>
+    <%= f.label :embedlink %><br>
+    <%= f.text_area :embedlink %>
+  </p>
+
+  <p>
+    <%= f.label :posterlink %><br>
+    <%= f.text_area :posterlink %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
