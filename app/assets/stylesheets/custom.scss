@@ -1,0 +1,86 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* universal */
+
+
+
+html,body {
+  background-color: rgb(0,0,0);
+}
+
+section {
+  overflow: auto;
+background-color: rgb(0,0,0);
+}
+
+h1 {
+    background-color: rgb(0,0,0);
+}
+
+p {
+    background-color: rgb(0,0,0);
+}
+
+h2 {
+  border: none;
+  background-color: rgb(0,0,0);
+}
+
+textarea {
+  resize: vertical;
+  background-color: rgb(0,0,0);
+}
+
+iframe {
+    width: 640px;
+    height: 480px;
+    margin: 0 auto;
+    display:block;
+}
+
+.center {
+  margin-left: 100px;
+  text-align: center;
+  background-color: rgb(0,0,0);
+}
+
+.center h1 {
+  margin-bottom: 10px;
+  margin-left: 50px;
+  background-color: rgb(0,0,0);
+}
+
+.navbar-custom {
+    background-color:#f75394;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+    color: #ffffff;
+    background-color:transparent;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: #ff1493;
+}
+
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+    background-color:#eeeeee;
+}
+.navbar-custom .icon-bar {
+    background-color:#ff1493;
+}
